@@ -1,0 +1,20 @@
+/* Botões */
+.btn-lg:hover {
+  position: relative;
+  background-color: #04aa6d;
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btn-lg:after {
+  content: "";
+  background: #90ee90;
+  display: block;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.8s;
+}
